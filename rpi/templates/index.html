@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask Toggle</title>
+  </head>
+  <body>
+    <h1>Toggle Switch</h1>
+    <form action="/toggle" method="POST">
+      <button type="submit">Toggle</button>
+    </form>
+    <p>Current state: {{ state }}</p>
+  </body>
+</html>
